@@ -1,0 +1,45 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#121212;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.app{
+text-align:center;
+background:#1f1f1f;
+padding:40px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
+h1{
+margin-bottom:20px;
+}
+
+.timer{
+font-size:70px;
+margin:20px 0;
+}
+
+.controls button{
+margin:5px;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+background:#ff5c5c;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.controls button:hover
+
+#mode{
+margin-top:15px;
+font-weight:bold;
+}
