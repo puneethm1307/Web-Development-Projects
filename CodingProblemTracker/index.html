@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Coding Problem Tracker</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Coding Problem Tracker</h1>
+
+<div class="input-section">
+
+<input type="text" id="problemName" placeholder="Enter Problem Name">
+
+<select id="difficulty">
+<option value="Easy">Easy</option>
+<option value="Medium">Medium</option>
+<option value="Hard">Hard</option>
+</select>
+
+<button onclick="addProblem()">Add Problem</button>
+
+</div>
+
+<table>
+
+<thead>
+
+<tr>
+<th>Problem</th>
+<th>Difficulty</th>
+<th>Action</th>
+</tr>
+
+</thead>
+
+<tbody id="problemList"></tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
