@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Habit Tracker Dashboard</title>
+
+<meta charset="UTF-8">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bg-gray-900 text-white font-[Poppins]">
+
+<div class="max-w-5xl mx-auto p-8">
+
+<h1 class="text-3xl font-bold text-center mb-8 text-purple-400">
+Habit Tracker Dashboard
+</h1>
+
+<div class="flex gap-3 mb-8">
+
+<input id="habitInput"
+class="flex-1 p-3 rounded bg-gray-800 outline-none"
+placeholder="Enter new habit">
+
+<button onclick="addHabit()"
+class="bg-emerald-500 px-6 rounded hover:bg-emerald-600">
+Add Habit </button>
+
+</div>
+
+<div id="habitContainer"
+class="grid md:grid-cols-2 gap-6">
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
